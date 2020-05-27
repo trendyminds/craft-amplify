@@ -33,7 +33,10 @@
 ### Fixed
 - Filter unsuported tags [align, hspace, vspace, allowfullscreen, allowtransparency]
 
-
 ## 1.0.9 - 2019-12-06
 ### Fixed
 - Fixed blank image tags. Add check for blank src=""
+
+## 1.0.10 - 2020-05-27
+### Updated
+- Updated src/vendor/trendyminds/amplify/src/lib/simple_html_dom.php with regex pattern that works with PCRE2 strict mode (php7.3)
